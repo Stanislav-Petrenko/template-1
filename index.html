@@ -40,8 +40,6 @@
          --mycolor2: #444444;
          --mycolor3: #4154f1;
          --mycolor4: #f6f9ff;
-
-
       }
 
       * h2,
@@ -205,6 +203,12 @@
       .canvas-size-title {
          font-size: 18px !important;
          color: var(--mycolor1);
+      }
+
+      @media screen and (max-width: 899px) {
+         .canvas-size {
+            display: none;
+         }
       }
 
       /*---------------whoweare------------------*/
@@ -469,8 +473,8 @@
          justify-content: center;
          flex-wrap: wrap;
          gap: 10px;
-         margin-top: 80px;
-         padding: 0 10px;
+         margin-top: 40px;
+         padding: 40px 10px;
       }
 
       .neque-content {
@@ -514,7 +518,7 @@
       /*----------------*/
 
       .ratione {
-         margin-top: 80px;
+         margin-top: 40px;
       }
 
       .ratione-body {
@@ -1432,7 +1436,6 @@
             transform: rotate(360deg);
          }
 
-
       }
    </style>
 
@@ -1454,7 +1457,7 @@
             <p class="canvas-size-title"></p>
             <a href="index.html" class=" choise-size-active choise-size">900px</a><a href="1000px.html"
                class="choise-size ">1000px</a><a href="1100px.html" class="  choise-size">1100px</a><a
-               href="1200px.html" class="  choise-size">1200px</a>
+               href="1200px.html" class="  choise-size">1200px</a><a href="mobile.html" class="choise-size">Mobile</a>
          </div>
       </section>
       <section class="whoweare">
